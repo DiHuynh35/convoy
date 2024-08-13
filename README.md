@@ -1,3 +1,5 @@
+# TEST
+
 # Convoy
 This is the official Convoy Ruby SDK. This SDK contains methods for easily interacting with Convoy's API. Below are examples to get you started. For additional examples, please see our official documentation at (https://convoy.readme.io/reference)
 
@@ -30,7 +32,7 @@ Convoy.project_id = "23b1..."
 ```
 
 ### Create Endpoint
-An endpoint represents a target URL to receive webhook events. You should create one endpoint per user/business or whatever scope works well for you. 
+An endpoint represents a target URL to receive webhook events. You should create one endpoint per user/business or whatever scope works well for you.
 
 ```ruby
 endpoint = Convoy::Endpoint.new(
@@ -45,7 +47,7 @@ endpoint_response = endpoint.save
 ```
 
 ### Subscribe For Events
-After creating an endpoint, we need to susbcribe the endpoint to events. 
+After creating an endpoint, we need to susbcribe the endpoint to events.
 
 ```ruby
 subscription = Convoy::Subscription.new(
